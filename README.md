@@ -17,7 +17,7 @@ The following actions are simulated to test the app’s performance:
 - Delete Post: Simulate users deleting a post via GET /posts/auth/manager/{postId}.
 
 # Running the Tests
-1. Import Test Plan: Open JMeter, go to File > Open, and select the weare_social_network_test_plan.jmx.
+1. Import Test Plan: Open JMeter, go to File > Open, and select the performance-weare.jmx.
 2. Configure Test: Modify Thread Group settings (number of users, ramp-up, loops).
 3. Run Test: Click the Start button in JMeter.
 
