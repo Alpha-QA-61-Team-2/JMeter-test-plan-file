@@ -9,12 +9,12 @@ This repository contains JMeter test plan for performance testing of the WEare S
 # Test Scenarios
 The following actions are simulated to test the app’s performance:
 
-Register User: Simulate user registration by sending POST /register.
-Login: Simulate users logging in with valid credentials via POST /authenticate.
-Get Posts: Simulate users fetching a list of posts using GET /posts.
-Create Post: Simulate users creating a new post via POST /posts/auth/newPost.
-Update Post: Simulate users updating an existing post via POST /posts/auth/editor/{postId}.
-Delete Post: Simulate users deleting a post via GET /posts/auth/manager/{postId}.
+- Register User: Simulate user registration by sending POST /register.
+- Login: Simulate users logging in with valid credentials via POST /authenticate.
+- Get Posts: Simulate users fetching a list of posts using GET /posts.
+- Create Post: Simulate users creating a new post via POST /posts/auth/newPost.
+- Update Post: Simulate users updating an existing post via POST /posts/auth/editor/{postId}.
+- Delete Post: Simulate users deleting a post via GET /posts/auth/manager/{postId}.
 
 # Running the Tests
 1. Import Test Plan: Open JMeter, go to File > Open, and select the weare_social_network_test_plan.jmx.
