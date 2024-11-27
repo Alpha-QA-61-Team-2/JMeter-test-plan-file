@@ -1,4 +1,4 @@
-WEare Social Network Performance Testing
+# WEare Social Network Performance Testing
 This repository contains JMeter test plan for performance testing of the WEare Social Network App.
 
 # Prerequisites
